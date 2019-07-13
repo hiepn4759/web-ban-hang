@@ -1,0 +1,249 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial , sans-serif;
+}
+
+
+/* header */
+.header{
+	background-color: #AFAFAFFF;
+}
+.ctn{
+	z-index: 9999;
+    position: relative;
+}
+.menu-header{
+	padding-left: 70px;
+}
+.menu-header-chinh{
+	float: left;
+	align-items: center;
+	list-style: none;
+	font-size: 18px;
+}
+.menu-item{
+	float: left;
+	padding: 10px 18px;
+	position: relative;
+}
+
+.menu-header-chinh .menu-item  a{
+	color: black;
+	text-decoration: none;
+}
+
+.menu-header-chinh .menu-item  a:hover{
+	background-color: #969696FF;
+}
+.menu-header-chinh .menu-item:hover .hienmenu{
+	display: block;
+}
+.hienmenu{
+	border-bottom: 1px solid gray;
+	display: none;
+	position: absolute;
+	list-style: none;
+	background-color: #969696FF;
+}
+.hienmenu li{
+	padding-top: 10px;
+	border-bottom: 1px solid gray;
+
+}
+.menu-item a i{
+	color: #7C7C7CFF;
+}
+
+.logo-header{
+	padding-top: 9px;
+}
+
+.shop-header{
+	font-size: 16px;
+	padding-top: 12px;
+}
+
+.header-sreach{
+	float: left;
+	padding-right: 40px;
+}
+.header-cart{
+	float: left;
+	padding-right: 50px;
+}
+.header-accout{
+	float: left;
+}
+
+
+/* slide */
+#about{
+	padding-top: 20px;
+	/* height: 800px; */
+}
+
+.carousel .carousel-inner .item img{
+	height: 800px;
+}
+
+.left{
+	height: 875px;
+}
+.right{
+	height: 875px;
+}
+
+/*Anh banner */
+.showbanner{
+	padding-top: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.showbanner a img{
+	width: 98%;
+}
+.showbanner a:hover img{
+	width: 100%;
+	transition: width 1s;
+}
+
+/* New san phẩm */
+
+.full{
+	padding-top: 80px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #cacad226;
+}
+.sanpham{
+	/* background-color: #F0E4E4FF; */
+	/* border: 1px solid gray; */
+	/* width: 25%; */
+	width: 256px;
+	height: 460px;
+	/* margin-bottom: 15px !important; */
+}
+
+.sanpham1{
+	border: 1px solid gray;
+	border-radius: 9px;
+}
+.heart{
+	text-align: center;
+    top: 0%;
+    position: absolute;
+    right: 6%;
+    opacity: 0.2;
+}
+.actions{
+	left: 50%;
+    top: 35%;
+    position: absolute;
+    opacity: 0.8;
+    font-size: 30px;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    color: black;
+    background-color: #ffffff;
+    /* visibility: hidden; */
+}
+
+
+.content-duoi{
+	text-align: center;
+}
+
+
+
+/* Phần Ảnh đại diện cho thương hiệu */
+
+.anhth a img{
+	width: 99%;
+}
+
+.anhth a:hover img{
+	width: 100%;
+	transition: width 0.5s;
+}
+
+
+
+/* Mieu ta */
+.chitiet{
+	padding-top: 70px;
+}
+
+.divtrai{
+	float: left;
+}
+
+/* mieuta1 */
+.chitiet1{
+	background-color: #EAFEFF;
+	padding-top: 50px;
+	/* margin: 0 auto; */
+	padding-bottom: 50px;
+}
+
+.chitiet1 .divtrai1{
+    padding-left: 11%;
+}
+
+.divphai1{
+	padding-top: 28px;
+}
+
+.chitiet1 .divphai1 .text1{
+	width: 223px;
+    height: 45px;
+    border-radius: 18px;
+    outline: none;
+}
+
+.chitiet1 .divphai1 .btn1{
+	width: 64px;
+    height: 41px;
+    border-radius: 29px;
+    outline: none;
+}
+
+
+
+/*  POPULER IN THIS WEEK */
+.khung{
+	padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+/* ft */
+
+.ft{
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.ft ul li{
+	list-style: none;
+}
+
+/* foorer bottom */
+.ft-main{
+	margin-top: 40px;
+	border-top: 1px solid #eeeeee;
+}
+
+.ft-main .main-ft-1 a{
+	padding: 10px;
+	color:  black;
+}
+
+.ft-main .main-ft-2{
+	text-align: center;
+}
